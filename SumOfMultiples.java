@@ -16,11 +16,9 @@ public class SumOfMultiples {
 	public static void main(String[] args) {
 		int answer = findSum();
 		if (answer != SOLUTION)
-			System.out.println("SumOfMultiples gave the wrong answer: "
-				+ answer);
+			System.out.println("We found the wrong answer: " + answer);
 		else
-			System.out.println("SumOfMultiples gave the right answer: "
-				+ answer);
+			System.out.println("We found the right answer: " + answer);
 	}
 
 	public static int findSum() {
