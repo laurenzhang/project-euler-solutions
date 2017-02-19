@@ -1,2 +1,2 @@
 # project-euler-solutions
-Solutions to Project Euler problems in Java
+Here, I solve Project Euler problems with Java
