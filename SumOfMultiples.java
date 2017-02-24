@@ -14,11 +14,9 @@ public class SumOfMultiples {
 	public static final int SOLUTION = 233168;
 
 	public static void main(String[] args) {
-		int answer = findSum();
-		if (answer != SOLUTION)
-			System.out.println("We found the wrong answer: " + answer);
-		else
-			System.out.println("We found the right answer: " + answer);
+		int sum = findSum();
+		
+		assert sum == SOLUTION : "incorrect sum calculated";
 	}
 
 	public static int findSum() {
